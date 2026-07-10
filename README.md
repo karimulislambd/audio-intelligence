@@ -11,7 +11,7 @@
 A two-stage pipeline: **local speech-to-text** (faster-whisper, no API cost) feeds an **LLM**
 (Llama 3.3 on Groq) that turns raw talk into structured, searchable intelligence.
 
-**Live demo:** _add your Streamlit URL here_
+**Live demo:** https://audio-intelligence-karimulislambd.streamlit.app/
 
 ---
 
