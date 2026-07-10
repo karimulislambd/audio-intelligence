@@ -1,0 +1,7 @@
+# Minimal toolbar (hides Deploy button + dev menu for visitors) and a dark theme.
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "dark"
+primaryColor = "#4f8bf9"

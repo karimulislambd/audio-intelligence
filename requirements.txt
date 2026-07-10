@@ -1,0 +1,15 @@
+# --- speech-to-text (local, free; CTranslate2 backend, bundles ffmpeg via av) ---
+faster-whisper==1.0.3
+
+# --- LLM for summary / Q&A ---
+groq==0.13.0
+
+# --- UI ---
+streamlit==1.40.2
+
+# --- utils ---
+python-dotenv==1.0.1
+
+# --- dev / test ---
+pytest==8.3.4
+ruff==0.8.4
