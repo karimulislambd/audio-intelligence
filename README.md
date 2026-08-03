@@ -14,7 +14,7 @@ A two-stage pipeline: **local speech-to-text** (faster-whisper, no API cost) fee
 **Live demo:** https://audio-intelligence-karimulislambd.streamlit.app/
 
 ---
-
+  
 ## What it does
 
 | Step | Output |
