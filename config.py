@@ -9,7 +9,7 @@ load_dotenv()
 
 # --- LLM (Groq) for summary + Q&A over the transcript ---
 GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "")
-LLM_MODEL: str = os.getenv("LLM_MODEL", "llama-3.3-70b-versatile")
+LLM_MODEL: str = os.getenv("LLM_MODEL", "openai/gpt-oss-120b")
 LLM_TEMPERATURE: float = float(os.getenv("LLM_TEMPERATURE", "0.2"))
 
 # --- Speech-to-text (faster-whisper) ---

@@ -9,7 +9,7 @@
 > report** (summary, key points, action items, topics), and a **Q&A chat** over what was said.
 
 A two-stage pipeline: **local speech-to-text** (faster-whisper, no API cost) feeds an **LLM**
-(Llama 3.3 on Groq) that turns raw talk into structured, searchable intelligence.
+(GPT-OSS 120B on Groq) that turns raw talk into structured, searchable intelligence.
 
 **Live demo:** https://audio-intelligence-karimulislambd.streamlit.app/
 
@@ -47,7 +47,7 @@ A two-stage pipeline: **local speech-to-text** (faster-whisper, no API cost) fee
 ## Tech stack
 
 - **Speech-to-text:** `faster-whisper` (`base`, int8, CPU) — free, local, no API
-- **LLM:** Groq `llama-3.3-70b-versatile` — free tier
+- **LLM:** Groq `openai/gpt-oss-120b` — free tier
 - **UI:** Streamlit
 - **Quality:** pytest · ruff · GitHub Actions · Docker
 
